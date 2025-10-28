@@ -1,0 +1,5 @@
+id;nombre;email;fecha_alta;activo
+1;Ana García;ana@example.com;2024-08-10;1
+2;Luis Pérez;luis@example.com;2024-10-05;1
+3;María López;maria@example.com;2025-01-15;0
+4;Victor;888@gmail.com;2001-12-01;1
