@@ -1,11 +1,11 @@
-# 🎟️ Mini-CRM de Eventos
+# Mini-CRM de Eventos
 
 Proyecto final de Python: una aplicación de consola que gestiona **clientes, eventos y ventas** usando ficheros **CSV**.  
 Permite leer datos, dar de alta clientes, filtrar ventas por fechas, calcular estadísticas y exportar informes.  
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 - Carga y lectura de CSV (`clientes`, `eventos`, `ventas`)
 - Alta de clientes con validación de email
 - Filtro de ventas por rango de fechas
@@ -15,7 +15,7 @@ Permite leer datos, dar de alta clientes, filtrar ventas por fechas, calcular es
 
 ---
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 ```plaintext
 PracticaFinal/
 ├─ Final.py                 # Código principal del Mini-CRM
