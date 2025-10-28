@@ -1,33 +1,26 @@
-Mini-CRM de Eventos
+# 🎟️ Mini-CRM de Eventos
 
-Aplicación de consola en Python que gestiona clientes, eventos y ventas mediante ficheros CSV.
-Incluye un menú interactivo, programación orientada a objetos y manejo de fechas con datetime.
+Proyecto final de Python: una aplicación de consola que gestiona **clientes, eventos y ventas** usando ficheros **CSV**.  
+Permite leer datos, dar de alta clientes, filtrar ventas por fechas, calcular estadísticas y exportar informes.  
 
-Mini-CRM de Eventos
+---
 
-Aplicación de consola en Python que gestiona clientes, eventos y ventas mediante ficheros CSV.
-Incluye un menú interactivo, programación orientada a objetos y manejo de fechas con datetime.
+## 🚀 Funcionalidades
+- Carga y lectura de CSV (`clientes`, `eventos`, `ventas`)
+- Alta de clientes con validación de email
+- Filtro de ventas por rango de fechas
+- Estadísticas: ingresos, categorías, precios y eventos próximos
+- Exportación de informe `informe_resumen.csv`
+- Menú interactivo en consola
 
+---
 
-Tecnologías y conceptos
-
-Python estándar (csv, datetime, statistics, os, re).
-
-POO: clases Cliente, Evento, Venta.
-
-Colecciones: listas, diccionarios, conjuntos y tuplas.
-
-Validaciones: email, fechas y errores de archivo.
-
+## 📂 Estructura del proyecto
+```plaintext
 PracticaFinal/
-├─ Final.py                 # Código principal con el menú y la lógica del Mini-CRM
-└─ data/                    # Carpeta que contiene los ficheros de datos
-   ├─ clientes.csv          # Lista de clientes (id, nombre, email, fecha_alta, activo)
-   ├─ eventos.csv           # Lista de eventos (id, nombre, categoría, fecha, precio)
-   └─ ventas.csv            # Lista de ventas (id, cliente_id, evento_id, fecha, unidades, precio_unitario)
+├─ Final.py                 # Código principal del Mini-CRM
+└─ data/                    # Carpeta con los archivos CSV
+   ├─ clientes.csv
+   ├─ eventos.csv
+   └─ ventas.csv
 
-   El programa lee los tres CSV desde la carpeta data/.
-
-Los archivos de salida (informe_resumen.csv o nuevos clientes) también se guardan ahí.
-
-El nombre Final.py es correcto; solo asegúrate de actualizar las rutas en el código si cambias de carpeta.
